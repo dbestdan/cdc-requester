@@ -31,15 +31,7 @@ public class SocketClientRunnable implements Runnable {
 	private long recordedTime = 0L;
 	private long requestInterval = 0L;
 	private long timeWindow = 0L;
-	// public SocketClientRunnable(String serverName, int portNumber) {
-	// pc4Port = Integer.parseInt(System.getProperty("pc4Port"));
-	// pc5Port = Integer.parseInt(System.getProperty("pc5Port"));
-	// pc4Socket = new Socket("pcnode4", pc4Port);
-	// pc5Socket = new Socket("pcnode5", pc5Port);
-	// logSocketClient = new Socket("pcnode2",portNumber);
-	// output = new DataOutputStream(logSocketClient.getOutputStream());
-	// input = new DataInputStream(logSocketClient.getInputStream());
-	// }
+
 
 	public SocketClientRunnable(String serverName, int portNumber) {
 		this.portNumber = portNumber;
